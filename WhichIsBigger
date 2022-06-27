@@ -1,0 +1,20 @@
+//Find which number is smaller using a conditional operator
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+     int numberOne;
+     int numberTwo;
+   
+        cout << "Please enter one whole number: \n";
+            cin >> numberOne;
+        cout << "Please enter a second whole number: \n";
+             cin >> numberTwo;
+        
+        cout << "The smaller number is: " << (numberOne < numberTwo ? numberOne : numberTwo);
+        
+        
+    return 0;
+}
